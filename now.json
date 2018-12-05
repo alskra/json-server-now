@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"name": "json-server-now",
+	"alias": "json-server-now.now.sh",
+	"builds": [
+		{
+			"src": "index.js",
+			"use": "@now/node-server"
+		}
+	],
+	"routes": [
+		{
+			"src": ".*",
+			"dest": "/"
+		}
+	]
+}
